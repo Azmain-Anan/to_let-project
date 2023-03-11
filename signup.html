@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signStyle.css">
+    <script defer src="signValid.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="login.html" method="post">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input autocomplete="off" id="username" class="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input autocomplete="off" id="email" name="email" type="email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                 <label for="password">Password</label>
+                 <input autocomplete="off" id="password" name="password" type="passward">
+                 <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password again</label>
+                 <input autocomplete="off" id="password2" name="password2" type="passward">
+                 <div class="error"></div>
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+
+    </div>
+</body>
+</html>
